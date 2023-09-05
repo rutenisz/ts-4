@@ -36,6 +36,11 @@ const addBook = () => {
   <strong>Release Year:</strong> ${book.release_year}`;
 
   bookDisplay.appendChild(bookInfo);
+
+  // istrina input values, kai pridedu itema
+  titleInput.value = "";
+  authorInput.value = "";
+  releaseYearInput.value = "";
 };
 
 button.addEventListener("click", addBook);
