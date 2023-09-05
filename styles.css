@@ -25,11 +25,16 @@
   background-color: rgb(118, 208, 118);
 }
 
+.book-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .book-card div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: rgb(170, 139, 139);
   border: 1px solid #ccc;
   padding: 10px;
   margin-top: 20px;
